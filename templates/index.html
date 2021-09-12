@@ -1,0 +1,17 @@
+<html>  
+    <head>  
+        <link rel="stylesheet" href={{ url_for('static', filename='style.css') }}>
+    </head>  
+    <body>
+        <p>brandon's favorite shows are</p>
+        <ol>
+            {% for show in my_fav_shows %}
+                {% if show == "Legend of Korra": %}
+                    <li class="fav-show">{{ show }}</li>
+                {% else %}
+                    <li>{{ show }}</li>
+                {% endif %}
+            {% endfor %}
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+body {
+    background-color: #651fff;
+    font-family: arial;
+}
+
+.fav-show {
+    color: blue;
+}
+
+li {
+    font-size: 36px;
+}
